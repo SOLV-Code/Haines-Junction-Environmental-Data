@@ -27,10 +27,10 @@ test
 
 
 
-merged.data <- rbind(cols.reorg(Haines_AirTempMin,var.label="AirTemp_Min",station.label="Haines"),
-			cols.reorg(Haines_AirTempMean,var.label="AirTemp_Mean",station.label="Haines"),
-			cols.reorg(Haines_AirTempMax,var.label="AirTemp_Max",station.label="Haines"),
-			cols.reorg(Burwash_WindSpeed ,var.label="WindSpeed_Mean",station.label="Burwash")
+merged.data <- rbind(cols.reorg(Haines_AirTempMin,var.label="AirTemp_Min",station.label="HainesJct"),
+			cols.reorg(Haines_AirTempMean,var.label="AirTemp_Mean",station.label="HainesJct"),
+			cols.reorg(Haines_AirTempMax,var.label="AirTemp_Max",station.label="HainesJct"),
+			cols.reorg(Burwash_WindSpeed ,var.label="WindSpeed_Mean",station.label="BurwashLdg")
 			)
 
 
