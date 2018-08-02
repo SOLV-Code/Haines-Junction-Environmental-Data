@@ -7,13 +7,13 @@ Repository of Environmental Data (e.g. Air Temperature, Precipitation, Wind Spee
 ### Current
 
 #### Source: [Adjusted and homogenized Canadian climate data](https://www.canada.ca/en/environment-climate-change/services/climate-change/science-research-data/climate-trends-variability/adjusted-homogenized-canadian-data.html)
-* **Air Temperature **: Air temperatures at Haines Junction (monthly and seasonal averages of daily min, daily mean, and daily max)
+* **Air Temperature**: Air temperatures at Haines Junction (monthly and seasonal averages of daily min, daily mean, and daily max)
 * **Wind Speed**: Wind speed at Burwash Landing  (monthly and seasonal averages of hourly means)
 
 
 ### Planned
 
-* **Wind Speed**: rain, snow, and total precipitation from same source
+* **Precipitation**: rain, snow, and total precipitation at Haines Junction from same source
 
 
 ## Data Treatment
@@ -26,13 +26,13 @@ Repository of Environmental Data (e.g. Air Temperature, Precipitation, Wind Spee
 
 ### Planned
 
-
+* None at this time
 
 ## Summary Plots / Interactive Visualizations
 
 ### Current
 
-* Pdf handout with various time series and scatter plots
+* Pdf handout with various time series and scatter plots (LINK TO FigRs)
 
 
 
