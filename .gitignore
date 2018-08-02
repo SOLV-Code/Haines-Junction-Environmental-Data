@@ -1,3 +1,20 @@
+
+/DATA/Source_Files
+
+*.xlsx
+*.xls
+*.docx
+*.doc
+!Precipitation_Documentation.doc
+!Temperature_Documentation.doc
+!Wind_Documentation.doc
+!Precipitation_Stations.xls
+!Temperature_Stations.xls
+!Wind_Stations.xls
+
+############
+# Default R gitignore
+
 # History files
 .Rhistory
 .Rapp.history
