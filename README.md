@@ -32,7 +32,7 @@ Repository of Environmental Data (e.g. Air Temperature, Precipitation, Wind Spee
 
 ### Current
 
-* Pdf handout with various time series and scatter plots (LINK TO FigRs)
+* Pdf handout with various time series and scatter plots, available [here](https://www.dropbox.com/sh/rp5ukyj4dmxm157/AACXLjH888JrSP_tLuSaIxFya?dl=0)
 
 
 
