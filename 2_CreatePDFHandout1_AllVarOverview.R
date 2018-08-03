@@ -24,7 +24,7 @@ stations.list <- unique( merged.df[,"Station"])
 
 # START HANDOUT 1
 
-pdf("OUTPUT/HainesJct_EnvData_Handout1.pdf",onefile=TRUE, height=11,width=8.5)
+pdf("OUTPUT/HainesJct_EnvData_Handout1_OverviewByMonth.pdf",onefile=TRUE, height=11,width=8.5)
 
 
 
@@ -56,6 +56,11 @@ abline(h=0,col="red")
 month.idx <- merged.df[,"Month"]== month
 lines( merged.df[var.idx & month.idx ,"FullDate"],merged.df[var.idx & month.idx  ,"Value"],
 		type="o",cex=0.5,col="darkblue",pch=19)
+abline(h=median(merged.df[var.idx & month.idx  ,"Value"],na.rm=TRUE),col="red",lty=2)
+lines( merged.df[var.idx & month.idx ,"FullDate"],filter(merged.df[var.idx & month.idx  ,"Value"],filter=rep(1/4,4),sides=1),col="red",lwd=1)
+
+
+
 
 title(main = month.abb[month],col.main="darkblue",line=0,cex.main=1.1)
 
@@ -90,6 +95,8 @@ abline(h=0,col="red")
 month.idx <- merged.df[,"Month"]== month
 lines( merged.df[var.idx & month.idx ,"FullDate"],merged.df[var.idx & month.idx  ,"Value"],
 		type="o",cex=0.5,col="darkblue",pch=19)
+abline(h=median(merged.df[var.idx & month.idx  ,"Value"],na.rm=TRUE),col="red",lty=2)
+lines( merged.df[var.idx & month.idx ,"FullDate"],filter(merged.df[var.idx & month.idx  ,"Value"],filter=rep(1/4,4),sides=1),col="red",lwd=1)
 
 title(main = month.abb[month],col.main="darkblue",line=0,cex.main=1.1)
 
