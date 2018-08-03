@@ -24,7 +24,7 @@ stations.list <- unique( merged.df[,"Station"])
 
 # START HANDOUT 1
 
-pdf("OUTPUT/HainesJct_EnvData_Handout1.pdf",onefile=TRUE, height=11,width=8.5)
+pdf("OUTPUT/HainesJct_EnvData_Handout1_OverviewByMonth.pdf",onefile=TRUE, height=11,width=8.5)
 
 
 
