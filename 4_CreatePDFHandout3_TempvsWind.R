@@ -30,7 +30,7 @@ stations.list <- unique( merged.df[,"Station"])
 
 # START HANDOUT 3
 
-pdf("OUTPUT/HainesJct_EnvData_Handout2_TempvsWind.pdf",onefile=TRUE, height=8.5,width=11)
+pdf("OUTPUT/HainesJct_EnvData_Handout3_TempvsWind.pdf",onefile=TRUE, height=8.5,width=11)
 
 #par(mfrow=c(2,2))
 par(pty="s")
