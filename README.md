@@ -2,7 +2,7 @@
 Repository of Environmental Data (e.g. Air Temperature, Precipitation, Wind Speed) for Haines Junction or the nearest available station
 
 
-Note: The latest version of summary plots is available [here](https://www.dropbox.com/sh/rp5ukyj4dmxm157/AACXLjH888JrSP_tLuSaIxFya?dl=0)
+**Note: The latest version of summary plots is available [here](https://www.dropbox.com/sh/rp5ukyj4dmxm157/AACXLjH888JrSP_tLuSaIxFya?dl=0)**
 
 
 ## Data Holdings
